@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B8501AA1BEAF8AA00FF5D91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8501A91BEAF8AA00FF5D91 /* main.m */; };
+		3B8501AD1BEAF8AA00FF5D91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8501AC1BEAF8AA00FF5D91 /* AppDelegate.m */; };
+		3B8501B01BEAF8AA00FF5D91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8501AF1BEAF8AA00FF5D91 /* ViewController.m */; };
+		3B8501B31BEAF8AA00FF5D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8501B11BEAF8AA00FF5D91 /* Main.storyboard */; };
+		3B8501B51BEAF8AA00FF5D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8501B41BEAF8AA00FF5D91 /* Assets.xcassets */; };
+		3B8501B81BEAF8AA00FF5D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8501B61BEAF8AA00FF5D91 /* LaunchScreen.storyboard */; };
+		3B8501C31BEAF8AA00FF5D91 /* MAXAutoDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8501C21BEAF8AA00FF5D91 /* MAXAutoDictionaryTests.m */; };
+		3B8501CE1BEAF8AA00FF5D91 /* MAXAutoDictionaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8501CD1BEAF8AA00FF5D91 /* MAXAutoDictionaryUITests.m */; };
+		3B8501DD1BEAF8C300FF5D91 /* MAXAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8501DC1BEAF8C300FF5D91 /* MAXAutoDictionary.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B8501BF1BEAF8AA00FF5D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B85019D1BEAF8AA00FF5D91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B8501A41BEAF8AA00FF5D91;
+			remoteInfo = MAXAutoDictionary;
+		};
+		3B8501CA1BEAF8AA00FF5D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B85019D1BEAF8AA00FF5D91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B8501A41BEAF8AA00FF5D91;
+			remoteInfo = MAXAutoDictionary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B8501A51BEAF8AA00FF5D91 /* MAXAutoDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAXAutoDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8501A91BEAF8AA00FF5D91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B8501AB1BEAF8AA00FF5D91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B8501AC1BEAF8AA00FF5D91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B8501AE1BEAF8AA00FF5D91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B8501AF1BEAF8AA00FF5D91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B8501B21BEAF8AA00FF5D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B8501B41BEAF8AA00FF5D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B8501B71BEAF8AA00FF5D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B8501B91BEAF8AA00FF5D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8501BE1BEAF8AA00FF5D91 /* MAXAutoDictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAXAutoDictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8501C21BEAF8AA00FF5D91 /* MAXAutoDictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAXAutoDictionaryTests.m; sourceTree = "<group>"; };
+		3B8501C41BEAF8AA00FF5D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8501C91BEAF8AA00FF5D91 /* MAXAutoDictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAXAutoDictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8501CD1BEAF8AA00FF5D91 /* MAXAutoDictionaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAXAutoDictionaryUITests.m; sourceTree = "<group>"; };
+		3B8501CF1BEAF8AA00FF5D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8501DB1BEAF8C300FF5D91 /* MAXAutoDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAXAutoDictionary.h; sourceTree = "<group>"; };
+		3B8501DC1BEAF8C300FF5D91 /* MAXAutoDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAXAutoDictionary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B8501A21BEAF8AA00FF5D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8501BB1BEAF8AA00FF5D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8501C61BEAF8AA00FF5D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B85019C1BEAF8AA00FF5D91 = {
+			isa = PBXGroup;
+			children = (
+				3B8501DB1BEAF8C300FF5D91 /* MAXAutoDictionary.h */,
+				3B8501DC1BEAF8C300FF5D91 /* MAXAutoDictionary.m */,
+				3B8501A71BEAF8AA00FF5D91 /* MAXAutoDictionary */,
+				3B8501C11BEAF8AA00FF5D91 /* MAXAutoDictionaryTests */,
+				3B8501CC1BEAF8AA00FF5D91 /* MAXAutoDictionaryUITests */,
+				3B8501A61BEAF8AA00FF5D91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B8501A61BEAF8AA00FF5D91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B8501A51BEAF8AA00FF5D91 /* MAXAutoDictionary.app */,
+				3B8501BE1BEAF8AA00FF5D91 /* MAXAutoDictionaryTests.xctest */,
+				3B8501C91BEAF8AA00FF5D91 /* MAXAutoDictionaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B8501A71BEAF8AA00FF5D91 /* MAXAutoDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				3B8501AB1BEAF8AA00FF5D91 /* AppDelegate.h */,
+				3B8501AC1BEAF8AA00FF5D91 /* AppDelegate.m */,
+				3B8501AE1BEAF8AA00FF5D91 /* ViewController.h */,
+				3B8501AF1BEAF8AA00FF5D91 /* ViewController.m */,
+				3B8501B11BEAF8AA00FF5D91 /* Main.storyboard */,
+				3B8501B41BEAF8AA00FF5D91 /* Assets.xcassets */,
+				3B8501B61BEAF8AA00FF5D91 /* LaunchScreen.storyboard */,
+				3B8501B91BEAF8AA00FF5D91 /* Info.plist */,
+				3B8501A81BEAF8AA00FF5D91 /* Supporting Files */,
+			);
+			path = MAXAutoDictionary;
+			sourceTree = "<group>";
+		};
+		3B8501A81BEAF8AA00FF5D91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B8501A91BEAF8AA00FF5D91 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B8501C11BEAF8AA00FF5D91 /* MAXAutoDictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B8501C21BEAF8AA00FF5D91 /* MAXAutoDictionaryTests.m */,
+				3B8501C41BEAF8AA00FF5D91 /* Info.plist */,
+			);
+			path = MAXAutoDictionaryTests;
+			sourceTree = "<group>";
+		};
+		3B8501CC1BEAF8AA00FF5D91 /* MAXAutoDictionaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B8501CD1BEAF8AA00FF5D91 /* MAXAutoDictionaryUITests.m */,
+				3B8501CF1BEAF8AA00FF5D91 /* Info.plist */,
+			);
+			path = MAXAutoDictionaryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B8501A41BEAF8AA00FF5D91 /* MAXAutoDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8501D21BEAF8AA00FF5D91 /* Build configuration list for PBXNativeTarget "MAXAutoDictionary" */;
+			buildPhases = (
+				3B8501A11BEAF8AA00FF5D91 /* Sources */,
+				3B8501A21BEAF8AA00FF5D91 /* Frameworks */,
+				3B8501A31BEAF8AA00FF5D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAXAutoDictionary;
+			productName = MAXAutoDictionary;
+			productReference = 3B8501A51BEAF8AA00FF5D91 /* MAXAutoDictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B8501BD1BEAF8AA00FF5D91 /* MAXAutoDictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8501D51BEAF8AA00FF5D91 /* Build configuration list for PBXNativeTarget "MAXAutoDictionaryTests" */;
+			buildPhases = (
+				3B8501BA1BEAF8AA00FF5D91 /* Sources */,
+				3B8501BB1BEAF8AA00FF5D91 /* Frameworks */,
+				3B8501BC1BEAF8AA00FF5D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B8501C01BEAF8AA00FF5D91 /* PBXTargetDependency */,
+			);
+			name = MAXAutoDictionaryTests;
+			productName = MAXAutoDictionaryTests;
+			productReference = 3B8501BE1BEAF8AA00FF5D91 /* MAXAutoDictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B8501C81BEAF8AA00FF5D91 /* MAXAutoDictionaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8501D81BEAF8AA00FF5D91 /* Build configuration list for PBXNativeTarget "MAXAutoDictionaryUITests" */;
+			buildPhases = (
+				3B8501C51BEAF8AA00FF5D91 /* Sources */,
+				3B8501C61BEAF8AA00FF5D91 /* Frameworks */,
+				3B8501C71BEAF8AA00FF5D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B8501CB1BEAF8AA00FF5D91 /* PBXTargetDependency */,
+			);
+			name = MAXAutoDictionaryUITests;
+			productName = MAXAutoDictionaryUITests;
+			productReference = 3B8501C91BEAF8AA00FF5D91 /* MAXAutoDictionaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B85019D1BEAF8AA00FF5D91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Max;
+				TargetAttributes = {
+					3B8501A41BEAF8AA00FF5D91 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					3B8501BD1BEAF8AA00FF5D91 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3B8501A41BEAF8AA00FF5D91;
+					};
+					3B8501C81BEAF8AA00FF5D91 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3B8501A41BEAF8AA00FF5D91;
+					};
+				};
+			};
+			buildConfigurationList = 3B8501A01BEAF8AA00FF5D91 /* Build configuration list for PBXProject "MAXAutoDictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B85019C1BEAF8AA00FF5D91;
+			productRefGroup = 3B8501A61BEAF8AA00FF5D91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B8501A41BEAF8AA00FF5D91 /* MAXAutoDictionary */,
+				3B8501BD1BEAF8AA00FF5D91 /* MAXAutoDictionaryTests */,
+				3B8501C81BEAF8AA00FF5D91 /* MAXAutoDictionaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B8501A31BEAF8AA00FF5D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8501B81BEAF8AA00FF5D91 /* LaunchScreen.storyboard in Resources */,
+				3B8501B51BEAF8AA00FF5D91 /* Assets.xcassets in Resources */,
+				3B8501B31BEAF8AA00FF5D91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8501BC1BEAF8AA00FF5D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8501C71BEAF8AA00FF5D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B8501A11BEAF8AA00FF5D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8501B01BEAF8AA00FF5D91 /* ViewController.m in Sources */,
+				3B8501AD1BEAF8AA00FF5D91 /* AppDelegate.m in Sources */,
+				3B8501AA1BEAF8AA00FF5D91 /* main.m in Sources */,
+				3B8501DD1BEAF8C300FF5D91 /* MAXAutoDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8501BA1BEAF8AA00FF5D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8501C31BEAF8AA00FF5D91 /* MAXAutoDictionaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8501C51BEAF8AA00FF5D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8501CE1BEAF8AA00FF5D91 /* MAXAutoDictionaryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B8501C01BEAF8AA00FF5D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B8501A41BEAF8AA00FF5D91 /* MAXAutoDictionary */;
+			targetProxy = 3B8501BF1BEAF8AA00FF5D91 /* PBXContainerItemProxy */;
+		};
+		3B8501CB1BEAF8AA00FF5D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B8501A41BEAF8AA00FF5D91 /* MAXAutoDictionary */;
+			targetProxy = 3B8501CA1BEAF8AA00FF5D91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B8501B11BEAF8AA00FF5D91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B8501B21BEAF8AA00FF5D91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B8501B61BEAF8AA00FF5D91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B8501B71BEAF8AA00FF5D91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B8501D01BEAF8AA00FF5D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B8501D11BEAF8AA00FF5D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B8501D31BEAF8AA00FF5D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MAXAutoDictionary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Max.MAXAutoDictionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B8501D41BEAF8AA00FF5D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MAXAutoDictionary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Max.MAXAutoDictionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B8501D61BEAF8AA00FF5D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MAXAutoDictionaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Max.MAXAutoDictionaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAXAutoDictionary.app/MAXAutoDictionary";
+			};
+			name = Debug;
+		};
+		3B8501D71BEAF8AA00FF5D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MAXAutoDictionaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Max.MAXAutoDictionaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAXAutoDictionary.app/MAXAutoDictionary";
+			};
+			name = Release;
+		};
+		3B8501D91BEAF8AA00FF5D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MAXAutoDictionaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Max.MAXAutoDictionaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MAXAutoDictionary;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3B8501DA1BEAF8AA00FF5D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MAXAutoDictionaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Max.MAXAutoDictionaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MAXAutoDictionary;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B8501A01BEAF8AA00FF5D91 /* Build configuration list for PBXProject "MAXAutoDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8501D01BEAF8AA00FF5D91 /* Debug */,
+				3B8501D11BEAF8AA00FF5D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B8501D21BEAF8AA00FF5D91 /* Build configuration list for PBXNativeTarget "MAXAutoDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8501D31BEAF8AA00FF5D91 /* Debug */,
+				3B8501D41BEAF8AA00FF5D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B8501D51BEAF8AA00FF5D91 /* Build configuration list for PBXNativeTarget "MAXAutoDictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8501D61BEAF8AA00FF5D91 /* Debug */,
+				3B8501D71BEAF8AA00FF5D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B8501D81BEAF8AA00FF5D91 /* Build configuration list for PBXNativeTarget "MAXAutoDictionaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8501D91BEAF8AA00FF5D91 /* Debug */,
+				3B8501DA1BEAF8AA00FF5D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B85019D1BEAF8AA00FF5D91 /* Project object */;
+}
